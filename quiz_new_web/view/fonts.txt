@@ -1,0 +1,15 @@
+ <link href="https://fonts.googleapis.com/css?family=Julius+Sans+One|Karla|Pacifico|Poiret+One|Quicksand|Raleway&display=swap" rel="stylesheet"> 
+
+
+    font-family: 'Quicksand', sans-serif;
+
+    font-family: 'Raleway', sans-serif;
+
+    font-family: 'Karla', sans-serif;
+
+    font-family: 'Pacifico', cursive;
+
+    font-family: 'Poiret One', cursive;
+
+    font-family: 'Julius Sans One', sans-serif;
+

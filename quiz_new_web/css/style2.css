@@ -1,0 +1,122 @@
+body{
+    width:100%;
+    height:100%;
+    background:#eeeeee;
+    margin:0px;
+    padding: 0px;
+    font-family: 'Julius Sans One', sans-serif;
+    font-weight: lighter;
+    overflow-y: scroll;
+}
+
+.nav
+{
+    background:#23374d;
+    padding: 40px;
+    color: white;
+}
+
+b
+{
+    float: right;
+}
+.navcontent
+{
+    margin-left:2% ;
+    font-size:20px;
+    transition: 0.2s;
+}
+.navcontent:hover
+{
+    font-size:21px;
+}
+
+.footer
+{
+   position: absolute;
+   bottom:0%;
+   height: 10%;
+   width: 100%;
+   background:#1089ff;
+   color: white;
+   text-align: center;
+}
+
+form
+{
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    width: 40%;
+    height: 40%;
+    background: white;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    text-align: center;
+}
+
+input
+{
+    margin:50px;
+    height: 30px;
+    width: 70%;
+    border-style: solid;
+    border-color:rgb(107, 104, 104);
+    background: white;
+    padding: 20px;
+    transition: 0.3s;
+}
+
+.btn
+{
+    width: 80%;
+    height: 70px;
+    padding: 0px;;
+    margin-top: 0px;
+    background:orange;
+    border-radius: 10px;
+    border-color: rgb(255, 102, 0);
+    color:white;
+    font-weight: bolder;
+    transition: 0.3s;
+}
+
+.btn:hover
+{
+    background:  rgb(255, 102, 0);
+}
+
+input:hover
+{
+    background: rgb(245, 244, 244);
+}
+
+.prof
+{
+    position: absolute;;
+    left: 65%;
+    margin: 20px;
+    padding: 20px;
+    float: left;
+    width: 30%;
+    height: 400px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.container1
+{
+    position: absolute;
+    width: 63%;
+    height: 420px;
+    margin: 20px;
+    border: black;
+    background:white;
+    border-style: solid 1px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    display: flex;
+}
+

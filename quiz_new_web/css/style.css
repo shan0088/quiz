@@ -1,0 +1,119 @@
+body{
+    width:100%;
+    height:100%;
+    background:#eeeeee;
+    margin:0px;
+    padding: 0px;
+    font-family: 'Julius Sans One', sans-serif;
+    font-weight: lighter;
+}
+
+.navcontent
+{
+    margin-left:2% ;
+    font-size:20px;
+    transition: 0.3s;
+}
+
+b
+{
+    float: right;
+}
+
+.nav{
+    background:#23374d;
+    padding: 40px;
+    color: white;
+}
+ div.menu{
+    margin: 5% 10%;
+    background: transparent;
+ }
+ button{
+    display:flex;
+    padding:2%;
+    position: absolute;
+    top: 20%;
+    width:10%;  
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+ }
+ button:nth-child(1){
+   background:white; 
+   color: #222;
+   left: 20%;
+ }
+ button:nth-child(2){
+   background:white; 
+   color: #222;
+   left: 30%;
+ }
+ button:nth-child(3){
+   background:white; 
+   color: #222;
+   left:40%;
+   
+ }
+.main_content
+{
+    position: absolute;
+    top: 31.5%;
+    left: 20%;
+    width: 60%;
+    height: 50%;
+    background-color: white;
+    color: white;
+    align-items: center;
+    text-align: center;
+    color: black;
+    border-radius: 10px;
+    border-top-left-radius: 0px;
+    box-shadow: 0 4px 8px rgba(0, 0,0,0.2);
+}
+
+input
+{
+    border:2px solid black;
+    height: 15%;
+    background: white;
+    align-self: inherit;
+    margin-top: 30px;
+    height: 40px;
+    width: 40%;
+    padding-left: 10px;
+}
+
+.btn
+{
+    border:2px solid black;
+    border-radius: 30px;
+    width: 30%;
+    background: inherit;
+    border-style: solid;
+    color:black;
+}
+
+h2
+{
+    font-size: 40px;
+}
+h1
+{
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+.footer
+{
+   position: absolute;
+   top: 90%;
+   height: 10%;
+   width: 100%;
+   background:#1089ff;
+   color: white;
+}
+
+.navcontent:hover
+{
+    font-size:21px;
+}
