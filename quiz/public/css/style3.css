@@ -1,0 +1,151 @@
+body{
+    width:100%;
+    height:100%;
+    background:#eeeeee;
+    margin:0px;
+    padding: 0px;
+    font-family: 'Julius Sans One', sans-serif;
+    font-weight: lighter;
+    overflow-y: scroll;
+}
+
+.nav
+{
+    background:#23374d;
+    padding: 40px;
+    color: white;
+}
+
+b
+{
+    float: right;
+}
+.navcontent
+{
+    margin-left:2% ;
+    font-size:20px;
+    transition: 0.2s;
+}
+.navcontent:hover
+{
+    font-size:21px;
+}
+
+.footer
+{
+   position: absolute;
+   bottom:0%;
+   height: 10%;
+   width: 100%;
+   background:#1089ff;
+   color: white;
+   text-align: center;
+}
+
+.btn
+{
+    padding: 10px;
+    background:orange;
+    border-radius: 10px;
+    border-color: rgb(255, 102, 0);
+    color:white;
+    transition: 0.3s;
+}
+
+.btn:hover
+{
+    background:  rgb(255, 136, 0);
+}
+
+input:hover
+{
+    background: rgb(245, 244, 244);
+}
+
+.prof
+{
+    position: absolute;;
+    left: 65%;
+    margin: 20px;
+    padding: 20px;
+    float: left;
+    width: 30%;
+    height: 400px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.container1
+{
+    position: absolute;
+    width: 63%;
+    height: 440px;
+    margin: 20px;
+    border: black;
+    background:white;
+    border-style: solid 1px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    display: flex;
+}
+
+
+button
+{
+    height: 100%;
+    background: orange;
+    width: 10%;
+    border: none;
+    transition: 0.3s;
+    color: white;
+    font-size: 40px;
+
+}
+button:nth-child(1)
+{
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+button:nth-child(3)
+{
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+button:hover
+{
+    background: rgb(255, 136, 0);
+}
+
+.container2
+{
+    width: 80%;
+    height: 100%;
+}
+
+textarea
+{
+    height: 45%;
+    width: 100%;
+    background: whitesmoke;
+    text-align: center;
+    font-size: 40px;
+    
+    overflow-x: break-word;
+}
+
+.answer
+{
+    height: 50%;
+    background:white;
+    text-align: center;
+    
+}
+td
+{
+    padding-top: 40px;    
+    padding-bottom: 40px;
+    padding-left: 130px;
+    padding-right: 130px; 
+}
