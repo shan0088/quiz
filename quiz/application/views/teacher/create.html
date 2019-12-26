@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/index.css" type="text/css">
+    <script src="jquery-3.4.1.min.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Alata&display=swap" rel="stylesheet">
+    <title>CRACK</title>
+</head>
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        var elems = document.querySelectorAll('.fixed-action-btn');
+        var instances = M.FloatingActionButton.init(elems, {
+            direction: 'top',
+            hoverEnabled: false
+        });
+    });
+
+    instance.open();
+    instance.close();
+    instance.destroy();
+
+    $(document).ready(function() {
+        $("#btn1").click(function() {
+            $("#ab").append(" <tr><td>Question no ?</td><td><a>Edit</a></td></tr>.");
+        });
+    });
+</script>
+
+<body style="display: flex;
+min-height: 100vh;
+flex-direction: column;font-family: 'Alata', sans-serif;">
+
+    <div class="navbar-fixed">
+        <nav>
+            <div class="nav-wrapper">
+                <a href="#!" class="brand-logo">Logo</a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="settings.html">Settings</a></li>
+                    <li><a href="index.html">Logout</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <div class="box" style="display: flex;">
+        <div class="container" style="height: 700px; width: 500px;  background: white; padding: 20px;">
+            <h4>Questions</h4><br>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th></th>
+                    </tr>
+                </thead>
+
+                <tbody id="ab">
+                    <tr>
+                        <td>Question no ?</td>
+                        <td><a class="waves-effect waves-light btn">Edit</a></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="container" style="display: inline-block;">
+            <div class="row">
+                <form class="col s12">
+                    <div class="row">
+                        <div class="input-field col s12">
+                            <textarea id="textarea1" class="materialize-textarea" style="height: 300px; font-size:60px; ;"></textarea>
+                            <label for="textarea1">Textarea</label>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <br>
+            <div class="row">
+                <div class="input-field col s6">
+                    <input placeholder="Placeholder" id="1" type="text" class="validate">
+                    <label for="1">Option 1</label>
+                </div>
+                <div class="input-field col s6">
+                    <input id="2" type="text" class="validate">
+                    <label for="2">Option 2</label>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="input-field col s6">
+                    <input placeholder="Placeholder" id="3" type="text" class="validate">
+                    <label for="3">Option 3</label>
+                </div>
+                <div class="input-field col s6">
+                    <input id="4" type="text" class="validate">
+                    <label for="4">Option 4</label>
+                </div>
+            </div>
+
+            <a class="waves-effect waves-light btn">Save</a>
+            <div class="fixed-action-btn">
+                <a class="btn-floating btn-large red">
+                    <i class="large material-icons">add</i>
+                </a>
+                <ul>
+                    <li><a class="btn-floating red" id="btn1"><i class="material-icons">add</i></a></li>
+                    <li><a class="btn-floating yellow darken-1" id="btn1"><i class="material-icons">add</i></a></li>
+                    <li><a class="btn-floating green" id="btn1"><i class="material-icons">add</i></a></li>
+                    <li><a class="btn-floating blue" id="btn1"><i class="material-icons">add</i></a></li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+
+    <footer class="page-footer" style="background: #1089ff;">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <h5 class="white-text">Footer Content</h5>
+                    <p class="grey-text text-lighten-4">Footer content</p>
+                </div>
+                <div class="col l4 offset-l2 s12">
+                    <h5 class="white-text">Links</h5>
+                    <ul>
+                        <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+                © 2019 Copyright Quiz
+                <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
